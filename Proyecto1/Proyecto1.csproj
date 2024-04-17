@@ -322,6 +322,8 @@
     <Content Include="Site.Master" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="View\Bibioteca.aspx" />
+    <Content Include="View\carrito.aspx" />
+    <Content Include="View\Libros.aspx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
     <Content Include="Site.Mobile.Master" />
@@ -382,10 +384,28 @@
     <Compile Include="View\Bibioteca.aspx.designer.cs">
       <DependentUpon>Bibioteca.aspx</DependentUpon>
     </Compile>
+    <Compile Include="View\carrito.aspx.cs">
+      <DependentUpon>carrito.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\carrito.aspx.designer.cs">
+      <DependentUpon>carrito.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\Libros.aspx.cs">
+      <DependentUpon>Libros.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\Libros.aspx.designer.cs">
+      <DependentUpon>Libros.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Controlers\" />
+    <Folder Include="Css\" />
     <Folder Include="DataBases\" />
+    <Folder Include="imagenes\" />
+    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
